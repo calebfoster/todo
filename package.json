@@ -32,7 +32,9 @@
     "morgan": "~1.9.1",
     "nedb": "^1.8.0",
     "nedb-async": "^0.1.6",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.10",
+
+    "react-scripts": "4.0.2"
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
