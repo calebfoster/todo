@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var path = require('path');
 
-router.get('/', function(req, res, next) {
-  // res.render('index', { title: 'Todo App' });
+router.get(['/', '/login', '/graphql'], function(req, res, next) {
   res.sendFile(path.join(__dirname, '../public', 'app.html'))
 });
 
