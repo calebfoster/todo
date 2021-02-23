@@ -31,12 +31,12 @@
     "jsonwebtoken": "^8.5.1",
     "morgan": "~1.9.1",
     "nedb": "^1.8.0",
-    "nedb-async": "^0.1.6"
+    "nedb-async": "^0.1.6",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
     "cross-env": "^7.0.3",
-    "nodemon": "^2.0.7",
-    "yarn": "^1.22.10"
+    "nodemon": "^2.0.7"
   }
 }
