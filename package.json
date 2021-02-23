@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "concurrently \"cross-env NODE_ENV=development PORT=3000 npm start\" \" cd react-spa && cross-env PORT=3001 npm start\"",
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
