@@ -19,7 +19,7 @@ Forms are set up for input validation but not fleshed out. I would definitely fi
 
 I could throw in the due date functionality but that's probably another hour or more so I left it out. FormIk complicates it a tad. But I can implement it if you're interested.  
 
-I'm more familiar with SQL databases so if I made this over again I would just run with SQLite to keep it simple. I thought document store might be quicker to implement but pretty sure I was wrong.
+I'm more familiar with SQL databases so if I made this over again I would just run with SQL. The database gets wiped each push so would use a server on production or maybe just SQLite for a little demo. I thought document store might be quicker to implement but pretty sure I was wrong. Would set up some kind of migrations.
 
 There is LOTS of room to make code more readable and organized (breaking out components, DRY, etc..). Main concern was just functionality in a reasonable amount of time.
 
